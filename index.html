@@ -30,13 +30,18 @@
 		<link rel="stylesheet" href="assets/css/font-awesome-animation.min.css">
 
 	</head>
-	<body class="loading">=
+	<body>
 		<!-- Música de Fundo -->
-        <audio src="assets/audio/Hipnotizou.mp3" controls autoplay loop></audio>
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+		<audio src="assets/audio/Hipnotizou.mp3" controls autoplay loop></audio>
+		<script>
+		$(document).ready(function(c) {
+			$('.close').on('click', function(c){
+				$('.login-form').fadeOut('slow', function(c){
+	  				$('.login-form').remove();
+				});
+			});
+		});
+		</script>
 				<!-- Header -->
 				<header id="header">
 				    <h1>Aceita o meu desafio?</h1>
