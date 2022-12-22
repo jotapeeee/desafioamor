@@ -10,7 +10,7 @@
 		position: relative;
 		border: solid 1px #fff;
 		border-radius: 100%;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		-webkit-behavior: url("assets/js/ie/PIE.htc");
 	}
 
 		#header nav a:before {
