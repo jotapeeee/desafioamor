@@ -329,11 +329,20 @@
 	#main {
 		height: 100%;
 		left: 0;
-		position: fixed;
+		position: static;
 		text-align: center;
 		top: 0;
 		width: 100%;
 	}
+
+		#main:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			margin-right: 0;
+			vertical-align: middle;
+			width: 1px;
+		}
 
 /* Header */
 
