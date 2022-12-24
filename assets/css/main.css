@@ -329,7 +329,7 @@
 	#main {
 		height: 100%;
 		left: 0;
-		position: static;
+		position: fixed;
 		text-align: center;
 		top: 0;
 		width: 100%;
@@ -337,7 +337,7 @@
 
 		#main:before {
 			content: '';
-			display: inline;
+			display: inline-block;
 			height: 100%;
 			margin-right: 0;
 			vertical-align: middle;
